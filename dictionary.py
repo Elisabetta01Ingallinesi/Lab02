@@ -1,13 +1,16 @@
 class Dictionary:
     def __init__(self):
-        pass
+        self.dizionario = {}
 
-    def addWord(self):
-        pass
 
-    def translate(self):
-        pass
+    def addWord(self, parola, traduzione):
+        self.dizionario[parola.lower()] = traduzione.lower()
+
+    def translate(self, parola):
+        return self.dizionario[parola.lower()]
 
     def translateWordWildCard(self):
         pass
 
+    def listaChiavi(self):
+        return self.dizionario.keys()
