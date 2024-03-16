@@ -28,8 +28,12 @@ while(True):
         controlloInput(txtIn)
         t.handleTranslate(txtIn.lower())
     elif int(txtIn) == 3:
-        pass
+        print("Ok, quale wildcard devo cercare?")
+        txtIn = input()
+        t.handleWildCard(txtIn.lower())
     elif int(txtIn) == 4:
+        t.printAll()
+    elif int(txtIn) == 5:
         break
 
 

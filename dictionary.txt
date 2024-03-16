@@ -106,3 +106,5 @@ lehti rivista
 sanomalehti giornale
 kynä penna
 paperi carta
+alieno ciaop
+alinno dietro
